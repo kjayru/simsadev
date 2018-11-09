@@ -126,7 +126,7 @@ body {
     font-size: 22px;
   }
   #inicio .container-fluid {
-    height: calc(100vh - 58px);
+    height: calc(100vh - 56px);
     position: relative;
 }
 .logorio {
@@ -494,9 +494,10 @@ div#particles-js {
     padding-bottom: 100px;
  }
 
-.frcontacto {
+ .frcontacto {
     background: white;
-    padding: 54px 40px;
+    padding: 45px 40px;
+    height: 530px;
 }
 .page-footer{
     background: #F8A414;
@@ -534,6 +535,19 @@ a.linked {
 
 
 @media (max-width:767px){
+    
+    .orange {
+        background: orange;
+        color: white;
+        padding: 120px 40px 40px 40px;
+        font-size: 30px;
+        text-transform: uppercase;
+        height: 300px;
+        text-align: center;
+        margin-top: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
     #inicio {
         background: url(/images/background.png) center center #000;
         background-size: cover;
@@ -767,6 +781,14 @@ a.linked {
 
   
   @media (min-width: 768px) {
+    .orange {
+        background: orange;
+        color: white;
+        padding: 120px 40px 40px 40px;
+        font-size: 30px;
+        text-transform: uppercase;
+        height: 300px;
+    }
     .etiqueta{
         color: #F8A414;
           font-weight: bold;

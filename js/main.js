@@ -262,9 +262,8 @@ var RippleModal = function () {
 
 
 
-
-if (md.os() || md.is('iPhone') || md.tablet() || md.mobile()) {
-
+if ( md.os()) {
+  
   $(document).ready(function () {
     $(".modal-trigger").on('click', function (e) {
       e.preventDefault();
@@ -273,34 +272,46 @@ if (md.os() || md.is('iPhone') || md.tablet() || md.mobile()) {
     $(".btnproducto").on('click', function (e) {
       e.preventDefault();
 
-      TweenLite.to(window, 2, { scrollTo: "#productos", ease: Power2.easeOut });
+      
+      var stack1 = $("#productos").position().top;
+       $("html, body").animate({ scrollTop: stack1-130 }, 600,"swing");
+       
       $(".navbar-toggler").trigger('click');
     });
 
     $(".btncontacto").on('click', function (e) {
       e.preventDefault();
 
-      TweenLite.to(window, 2, { scrollTo: "#contactotitulo", ease: Power2.easeOut });
+      
+      var stack1 = $("#contactotitulo").position().top;
+       $("html, body").animate({ scrollTop: stack1-100 }, 600,"swing");
+
       $(".navbar-toggler").trigger('click');
     });
 
     $(".btnnosotros").on('click', function (e) {
       e.preventDefault();
 
-      TweenLite.to(window, 2, { scrollTo: "#quehacemos", ease: Power2.easeOut });
+    
+      var stack1 = $("#quehacemos").position().top;
+       $("html, body").animate({ scrollTop: stack1-100 }, 600,"swing");
       $(".navbar-toggler").trigger('click');
     });
 
     $(".btnquehacemos").on('click', function (e) {
       e.preventDefault();
 
-      TweenLite.to(window, 2, { scrollTo: "#servicios", ease: Power2.easeOut });
+      
+      var stack1 = $("#servicios").position().top;
+       $("html, body").animate({ scrollTop: stack1-100 }, 600,"swing");
       $(".navbar-toggler").trigger('click');
     });
 
     $(".btn-contactos").on('click', function (e) {
       e.preventDefault();
-      TweenLite.to(window, 2, { scrollTo: "#contactotitulo", ease: Power2.easeOut });
+      
+      var stack1 = $("#contactotitulo").position().top;
+       $("html, body").animate({ scrollTop: stack1-100 }, 600,"swing");
       $(".navbar-toggler").trigger('click');
     });
 

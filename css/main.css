@@ -376,7 +376,7 @@ div#particles-js {
 .form-group input, .form-group textarea {
     background: rgba(0, 0, 0, 0.03);
     padding: 20px;
-    color: #eee;
+    color: #999;
 }
 
 /*modal*/
@@ -960,4 +960,10 @@ a.linked {
     p.bq1 {
         padding-top: 47%;
     }
+}
+
+label.error {
+    color: red;
+    font-size: 10px;
+    position: absolute;
 }

@@ -58,7 +58,7 @@
             <div class="logo row h-100 justify-content-center align-items-center">
                 <div class="logorio">
                     <div  data-invert-y="false"  class="efecto" >
-                        <img src="./images/logocentro.png" data-depth="0.6" class="img-fluid" />
+                        <img src="./images/logocentro.png" data-depth="0.2" class="img-fluid" />
                     </div>
                 </div>
                 <div id="particles-js"></div>
@@ -76,11 +76,11 @@
                    <div class="d-none d-sm-block">
                         <div data-relative-input="true"    data-limit-x="false" data-invert-y="true"  class="efecto2 bloque25" >
                         
-                            <img src="/images/year25.png" data-depth="0.2" class="img-fluid" />
+                            <img src="/images/year25.png" data-depth="0.1" class="img-fluid" />
                         </div>
                     </div>
                     <div class="d-block d-sm-none">
-                        <img src="/images/simsa25mob.png" data-depth="0.2" class="img-fluid" />
+                        <img src="/images/simsa25mob.png" data-depth="0.1" class="img-fluid" />
                     </div>
                 </div>
 
@@ -128,7 +128,7 @@
             </div>
             <div class="row">
                 <div class="efecto3" data-relative-input="true" data-invert-x="true"  data-invert-y="true" >
-                    <div class="col-md-12 col-12" data-depth="0.8">
+                    <div class="col-md-12 col-12" data-depth="0.1">
                         <ul>
                             <li>
                                 <img src="/images/icono4.png" class="img-fluid"/>
@@ -176,7 +176,7 @@
                     </div>
                     <div class="col-md-5 op1">
                         <div class="efecto4" data-relative-input="false" data-invert-x="false"  data-invert-y="false">
-                            <img src="/images/prod1.png"  class="img-fluid" data-depth="0.4"/>
+                            <img src="/images/prod1.png"  class="img-fluid" data-depth="0.1"/>
                         </div>
                             <div class="etiqueta">01</div>
                         
@@ -186,7 +186,7 @@
                 <div class="row product right justify-content-center">
                     <div class="col-md-5 op2">
                     <div class="efecto5" data-relative-input="true" data-invert-x="true"  data-invert-y="true">
-                        <img src="/images/prod2.png" data-depth="0.4"  class="img-fluid"/>
+                        <img src="/images/prod2.png" data-depth="0.1"  class="img-fluid"/>
                     </div>
                     <div class="etiqueta">02</div>
                     </div>
@@ -221,7 +221,7 @@
                     </div>
                     <div class="col-md-5 op3">
                     <div class="efecto6" data-relative-input="true" data-invert-x="false"  data-invert-y="false">
-                        <img src="/images/prod3.png" data-depth="0.4"  class="img-fluid"/>
+                        <img src="/images/prod3.png" data-depth="0.1"  class="img-fluid"/>
                     </div>
                         <div class="etiqueta">03</div>
                     </div>
@@ -232,7 +232,7 @@
                 <div class="row product right justify-content-center">
                     <div class="col-md-5 op4">
                     <div class="efecto7" data-relative-input="true" data-invert-x="true"  data-invert-y="true">
-                        <img src="/images/prod4.png" data-depth="0.4"  class="img-fluid"/>
+                        <img src="/images/prod4.png" data-depth="0.1"  class="img-fluid"/>
                     </div>
                         <div class="etiqueta">04</div>
                     </div>
@@ -261,7 +261,7 @@
                     </div>
                     <div class="col-md-5 op5">
                     <div class="efecto8" data-relative-input="true" data-invert-x="false"  data-invert-y="false">
-                        <img src="/images/prod5.png" data-depth="0.4"  class="img-fluid"/>
+                        <img src="/images/prod5.png" data-depth="0.1"  class="img-fluid"/>
                     </div>
                         <div class="etiqueta">05</div>
                     </div>
@@ -271,7 +271,7 @@
                 <div class="row product right justify-content-center">
                     <div class="col-md-5 op6">
                     <div class="efecto9" data-relative-input="true" data-invert-x="true"  data-invert-y="true">
-                        <img src="/images/prod6.png" data-depth="0.4"  class="img-fluid"/>
+                        <img src="/images/prod6.png" data-depth="0.1"  class="img-fluid"/>
                     </div>
                         <div class="etiqueta">06</div>
                     </div>
@@ -531,7 +531,7 @@
                     <div class="row h-100 justify-content-center item-align-center">
                         
                         <div class="col-md-3 col-11 frcontacto">
-                            <form>
+                            <form id="formdata">
                                 <div class="form-group">
                                    
                                     <input type="text" class="form-control" id="nombre" name="nombre" aria-describedby="Nombre" placeholder="Nombre">
@@ -566,8 +566,10 @@
                                 </div>
                                
                                 <div class="form-group">
-                                    <a href="#" class="btn btn-default btn-contacto btn-sendata modal-trigger link"  data-modal="#modal-2">Enviar</a>
+                                    <a href="#" class="btn btn-default btn-contacto btn-sendata">Enviar</a>
                                 </div>
+
+                                <a href="#" class="modal-trigger link evento-op"  data-modal="#modal-2">.</a>
                             </form>
                         </div>
 

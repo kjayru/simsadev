@@ -111,6 +111,100 @@ particlesJS("particles-js", {
 
 var md = new MobileDetect(window.navigator.userAgent);
 
+$.validator.methods.email = function( value, element ) {
+  return this.optional( element ) || /[a-z0-9]+@[a-z0-9]+\.[a-z]+/.test( value );
+};
+$.validator.addMethod("valueNotEquals", function(value, element, arg){
+
+  return arg !== value;
+ }, "Value must not equal arg.");
+
+
+$(document).ready(function(){
+
+    $("#formdata").validate({
+          rules: {
+            nombre:{
+              required:true
+    
+            },
+            empresa:{
+              required:true
+            },
+            ciudad:{
+              required:true
+            },
+            email: {
+                required: true,
+                email: true,  
+            },
+            telefono:{
+              required:true
+            },
+            mensaje:{
+              required:true
+            }
+          
+        },
+        messages: {
+            nombre: " Ingrese su fecha de nacimiento",
+            empresa: "Ingrese su empresa",
+            ciudad: "Ingrese su ciudad",
+            email: "Ingrese su email",
+            telefono: "Ingrese su telefono",
+            mensaje: "Redacte un mensaje"
+
+        }
+    });
+
+
+    $(".btn-sendata").on('click',function(e){
+      e.preventDefault();
+      let nombre = document.getElementById("nombre").value;
+      let empresa = document.getElementById('empresa').value;
+      let ciudad = document.getElementById('ciudad').value;
+      let email = document.getElementById('email').value;
+      let telefono = document.getElementById('telefono').value;
+      let mensaje = document.getElementById('mensaje').value;
+
+
+      datos = ({'nombre':nombre,'empresa':empresa,'ciudad':ciudad,'email':email,'telefono':telefono,'terminos':mensaje});
+      //let url = `/savedata`;
+       if($("#formdata").valid()===true){
+             
+              $(".evento-op").trigger("click");
+                /*  fetch(url,{
+                      method:'POST',
+                      body:JSON.stringify(datos),
+                      headers:{
+                          'Content-Type':'application/json'
+                      }
+                  }).then(res => res.json())
+                      .catch(error => console.error('error: ', error))
+                      .then(response => {
+                          if(response.rpta ==='ok'){
+                          $(".boxchild p.text-center").html(`Gracias por compartir tus datos, ${nombres}.<br>
+                          Muy pronto recibirás novedades de nosotros.`);
+                          $(".modalform").fadeIn(350,'swing');
+                          }else{
+                              alert("error de envio");
+                          }
+                      });
+
+
+                      */
+
+               }else{
+                   return false;
+               }
+
+  });
+
+
+ //enddocument   
+});
+
+
 
 
 var _createClass = function () {

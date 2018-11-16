@@ -960,6 +960,70 @@ a.linked {
     p.bq1 {
         padding-top: 47%;
     }
+    .title-prod h2 {
+        color: #F8A414;
+        font-size: 67px;
+        padding: 10px 0 4px 0;
+        font-weight: bold;
+    }
+    .left>div:first-child {
+        text-align: left;
+        padding-top: 131px;
+        padding-right: 160px;
+        padding-left: 52px;
+    }
+    .ap1:before {
+        content: "";
+        width: 1px;
+        height: 576px;
+        background: #F8A414;
+        position: absolute;
+        top: 79px;
+        left: 15px;
+    }
+    a.btn-cotiza {
+        background: #00E73C;
+        color: white;
+        font-weight: bold;
+        border-radius: 20px;
+        padding: 7px 19px 2px 19px;
+        position: absolute;
+        bottom: 61px;
+        left: 57px;
+    }
+    .etiqueta {
+        color: #F8A414;
+        font-weight: bold;
+        font-size: 67px;
+        display: block;
+        margin-top: -41px;
+    }
+    .right>div:last-child {
+        text-align: left;
+        padding-top: 131px;
+        padding-left: 105px;
+        padding-right: 50px;
+    }
+    .ap2:before {
+        content: "";
+        width: 1px;
+        height: 579px;
+        background: #F8A414;
+        position: absolute;
+        top: 88px;
+        right: 18px;
+    }
+    .ap2 a.btn-cotiza {
+       
+        left: 158px;
+    }
+    .ap2 h2{
+        margin-top: 52px;
+    }
+    .op3 img {
+        height: 550px;
+        margin-left: 206px !important;
+    }
 }
 
 label.error {

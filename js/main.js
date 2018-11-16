@@ -167,12 +167,13 @@ $(document).ready(function(){
       let telefono = document.getElementById('telefono').value;
       let mensaje = document.getElementById('mensaje').value;
 
+      
 
       datos = ({'nombre':nombre,'empresa':empresa,'ciudad':ciudad,'email':email,'telefono':telefono,'terminos':mensaje});
       //let url = `/savedata`;
        if($("#formdata").valid()===true){
              
-              $(".evento-op").trigger("click");
+              $("#modal-2").addClass('active').css('display','block');
                 /*  fetch(url,{
                       method:'POST',
                       body:JSON.stringify(datos),

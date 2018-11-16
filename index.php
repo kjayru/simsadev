@@ -569,7 +569,7 @@
                                     <a href="#" class="btn btn-default btn-contacto btn-sendata">Enviar</a>
                                 </div>
 
-                                <a href="#" class="modal-trigger link evento-op"  data-modal="#modal-2">.</a>
+                                <a href="#" class="modal-trigger link" id="eventop" data-modal="#modal-2">.</a>
                             </form>
                         </div>
 

@@ -72,7 +72,7 @@
     <div id="quehacemos">
         <div class="container-fluid">
         <div class="row justify-content-center">
-                <div class="col-md-5 col-12">
+                <div class="col-md-7 col-sm-5 col-lg-5 col-12">
                    <div class="d-none d-sm-block">
                         <div data-relative-input="true"    data-limit-x="false" data-invert-y="true"  class="efecto2 bloque25" >
                         
@@ -160,7 +160,7 @@
         <div class="container">
             <div class="d-none d-sm-block">
                 <div class="row product left justify-content-center">
-                    <div class="col-md-6 ap1">
+                    <div class="col-md-6 ap1 pd">
                         <h2>Transformadores
                             de instrumento tipo poste
                         </h2>
@@ -174,7 +174,7 @@
                         </p>
                         <a href="#" class="btn btn-default btn-cotiza modal-trigger link"  data-modal="#modal-1">COTIZA HOY</a>
                     </div>
-                    <div class="col-md-5 op1">
+                    <div class="col-md-5 op1 ">
                         <div class="efecto4" data-relative-input="false" data-invert-x="false"  data-invert-y="false">
                             <img src="/images/prod1.png"  class="img-fluid" data-depth="0.1"/>
                         </div>
@@ -190,7 +190,7 @@
                     </div>
                     <div class="etiqueta">02</div>
                     </div>
-                    <div class="col-md-6 ap2">
+                    <div class="col-md-6 ap2 pd">
                         <h2>Transformadores
                             de tipo pedestal
                         </h2>
@@ -207,7 +207,7 @@
 
 
                 <div class="row product left justify-content-center">
-                    <div class="col-md-6 ap1">
+                    <div class="col-md-6 ap1 pd">
                         <h2>Transformadores de instrumento
                             de alta tensión </h2>
                         <p>Transformadores de Potencial y Transformadores
@@ -219,7 +219,7 @@
                         </p>
                         <a href="#" class="btn btn-default btn-cotiza modal-trigger link"  data-modal="#modal-1">COTIZA HOY</a>
                     </div>
-                    <div class="col-md-5 op3">
+                    <div class="col-md-5 op3 ">
                     <div class="efecto6" data-relative-input="true" data-invert-x="false"  data-invert-y="false">
                         <img src="/images/prod3.png" data-depth="0.1"  class="img-fluid"/>
                     </div>
@@ -230,13 +230,13 @@
 
 
                 <div class="row product right justify-content-center">
-                    <div class="col-md-5 op4">
+                    <div class="col-md-5 op4 ">
                     <div class="efecto7" data-relative-input="true" data-invert-x="true"  data-invert-y="true">
                         <img src="/images/prod4.png" data-depth="0.1"  class="img-fluid"/>
                     </div>
                         <div class="etiqueta">04</div>
                     </div>
-                    <div class="col-md-6 ap2">
+                    <div class="col-md-6 ap2 pd">
                         <h2>Transformadores de 
                             instrumento para baja tensión </h2>
                         <p>Transformadores de corriente tipo dona para baja tensión en rangos
@@ -249,7 +249,7 @@
 
 
                 <div class="row product left justify-content-center">
-                    <div class="col-md-6 ap1">
+                    <div class="col-md-6 ap1 pd">
                         <h2>Watthorímetros</h2>
                         <p>Medidores residenciales, comerciales e indsutriales
                             tipo bidireccional con capacidad de telemedición.
@@ -259,7 +259,7 @@
                         </p>
                         <a href="#" class="btn btn-default btn-cotiza modal-trigger link"  data-modal="#modal-1">COTIZA HOY</a>
                     </div>
-                    <div class="col-md-5 op5">
+                    <div class="col-md-5 op5 ">
                     <div class="efecto8" data-relative-input="true" data-invert-x="false"  data-invert-y="false">
                         <img src="/images/prod5.png" data-depth="0.1"  class="img-fluid"/>
                     </div>
@@ -269,13 +269,13 @@
 
 
                 <div class="row product right justify-content-center">
-                    <div class="col-md-5 op6">
+                    <div class="col-md-5 op6 ">
                     <div class="efecto9" data-relative-input="true" data-invert-x="true"  data-invert-y="true">
                         <img src="/images/prod6.png" data-depth="0.1"  class="img-fluid"/>
                     </div>
                         <div class="etiqueta">06</div>
                     </div>
-                    <div class="col-md-6 ap2">
+                    <div class="col-md-6 ap2 pd">
                         <h2>Calidad de energía</h2>
                         <p>Dimensionamiento y suministro de filtros de armónicas y bancos de capacitores
                             para control de factor de potencia y mejora en la calidad de
@@ -309,7 +309,7 @@
                         <div class="col-4 ">
                             <div class="etiqueta">01</div>
                         </div>
-                        <div class="col-7 text-right">
+                        <div class="col-7 text-right pd">
                             <img src="/images/prod1.png"  class="img-fluid"/>
                             <a href="#" class="btn btn-default btn-cotiza modal-trigger link"  data-modal="#modal-1">COTIZA HOY</a>
                         </div>
@@ -360,7 +360,7 @@
                         <div class="col-4">
                             <div class="etiqueta">03</div>
                         </div>
-                        <div class="col-7 text-right">
+                        <div class="col-7 text-right ">
                             <img src="/images/prod3.png"  class="img-fluid"/>
                             <a href="#" class="btn btn-default btn-cotiza modal-trigger link"  data-modal="#modal-1">COTIZA HOY</a>
                         </div>
@@ -459,13 +459,13 @@
     <div id="contactologos">
         <div class="container">
             <div class="row logos">
-                <div class="col-md-4 col">
+                <div class="col-md-4 col text-center">
                     <img src="/images/logo1.png" class="img-fluid"/>
                 </div>
-                <div class="col-md-4 col">
+                <div class="col-md-4 col text-center">
                     <img src="/images/logo2.png" class="img-fluid"/>
                 </div>
-                <div class="col-md-4 col">
+                <div class="col-md-4 col text-center">
                     <img src="/images/logo3.png" class="img-fluid"/>
                 </div>
             </div>
@@ -507,7 +507,7 @@
                     
                     
                     <div class="col-md-5 mb-md-0 mb-5 text-center">
-                            <a href="#" class="linked" class="linked"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://mx.linkedin.com/company/simsamonterrey" target="_blank" class="linked" class="linked"><i class="fab fa-linkedin-in"></i></a>
 
                             <ul class="ft-link">
                                 <li><a href="#productos" >Productos</a></li>
@@ -564,7 +564,9 @@
                                     
                                     <textarea class="form-control" id="mensaje" name="mensaje" rows="3" placeholder="Mensaje"></textarea>
                                 </div>
-                               
+                                 <div class="form-group">
+                                 <div class="g-recaptcha" data-sitekey="6Lc5JXsUAAAAAAYhYTmcWo8kEE1rcvxHMWmVLuk9"></div>
+                                 </div>
                                 <div class="form-group">
                                     <a href="#" class="btn btn-default btn-contacto btn-sendata">Enviar</a>
                                 </div>
@@ -599,7 +601,7 @@
 <script src="/js/vendor/jquery.parallax.js?v=2"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/plugins/ScrollToPlugin.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
-
+<script src='https://www.google.com/recaptcha/api.js'></script>
 <script src="/js/vendor/mobile-detect.min.js"></script>
 
 <script src="/js/main.js?v=<?php echo uniqid() ?>"></script>  

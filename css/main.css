@@ -550,7 +550,7 @@ div#particles-js {
 .frcontacto {
     background: white;
     padding: 45px 40px;
-    height: 530px;
+    
 }
 
 .page-footer {
@@ -832,6 +832,246 @@ a.linked {
 }
 
 @media (min-width: 768px) {
+    #servicios .text-right {
+        font-size: 19px;
+        padding: 6px 42px 20px 11px;
+        text-align: left !important;
+        line-height: 24px;
+    }
+    
+    .pd {
+        height: 667px;
+    }
+    .etiqueta {
+        color: #F8A414;
+        font-weight: bold;
+        font-size: 67px;
+        display: block;
+        margin-top: -12px;
+    }
+    .left>div:first-child {
+        text-align: left;
+        padding-top: 131px;
+        padding-right: 11px;
+        padding-left: 50px;
+    }
+    .ap1:before {
+        content: "";
+        width: 1px;
+        height: 576px;
+        background: #F8A414;
+        position: absolute;
+        top: 79px;
+        left: 15px;
+    }
+    a.btn-cotiza {
+        background: #00E73C;
+        color: white;
+        font-weight: bold;
+        border-radius: 20px;
+        padding: 7px 19px 2px 19px;
+        position: absolute;
+        bottom: 61px;
+        left: 57px;
+    }
+    
+   
+    .right>div:last-child {
+        text-align: left;
+        padding-top: 121px;
+        padding-left: 40px;
+        padding-right: 50px;
+    }
+    .ap2:before {
+        content: "";
+        width: 1px;
+        height: 579px;
+        background: #F8A414;
+        position: absolute;
+        top: 88px;
+        right: 18px;
+    }
+
+
+    .orange {
+        background: orange;
+        color: white;
+        padding: 120px 40px 40px 40px;
+        font-size: 30px;
+        text-transform: uppercase;
+        height: 300px;
+    }
+    .etiqueta {
+        color: #F8A414;
+        font-weight: bold;
+        font-size: 59px;
+        display: block;
+    }
+    .left .etiqueta {
+        text-align: right;
+    }
+    .right .etiqueta {
+        text-align: left;
+    }
+    .op2 {
+        height: 590px;
+    }
+    .op3 img {
+        height: 550px;
+    }
+    .product img {
+        padding-top: 144px;
+    }
+    .op4 img {
+        height: 435px;
+    }
+    .op5 img {
+        height: 502px;
+    }
+    #productos img.img-fluid {
+        margin-left: 0;
+    }
+    #particles-js {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.1);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        top: 0;
+        z-index: 1;
+    }
+    /* ---- stats.js ---- */
+    .count-particles {
+        background: #000022;
+        position: absolute;
+        top: 48px;
+        left: 0;
+        width: 80px;
+        color: #13E8E9;
+        font-size: .8em;
+        text-align: left;
+        text-indent: 4px;
+        line-height: 14px;
+        padding-bottom: 2px;
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight: bold;
+    }
+    .js-count-particles {
+        font-size: 1.1em;
+    }
+    #stats, .count-particles {
+        -webkit-user-select: none;
+    }
+    #stats {
+        border-radius: 3px 3px 0 0;
+        overflow: hidden;
+    }
+    .count-particles {
+        border-radius: 0 0 3px 3px;
+    }
+    .container, .container-fluid {
+        overflow: hidden;
+        position: relative;
+    }
+    .bloque25 {
+        display: block;
+        width: 100%;
+        background-size: cover;
+    }
+    p.bq1 {
+        padding-top: 43%;
+        text-align: right;
+        font-size: 41px;
+        padding-right: 50px;
+        line-height: 47px;
+    }
+    p.bq2 {
+        font-size: 34px;
+        text-align: right;
+        padding-right: 100px;
+        line-height: 23px;
+        padding-top: 0;
+    }
+    #servicios {
+        width: 100%;
+        padding-top: 150px;
+        text-align: center;
+        margin-bottom: 160px;
+    }
+    p.bq1 {
+        padding-top: 47%;
+    }
+}
+
+@media (min-width: 992px) {
+    #servicios .text-right {
+        font-size: 19px;
+        padding: 6px 42px 20px 136px;
+        text-align: left !important;
+        line-height: 24px;
+    }
+    
+    .bloque25 {
+        display: block;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .pd {
+        height: 667px;
+    }
+    .etiqueta {
+        color: #F8A414;
+        font-weight: bold;
+        font-size: 67px;
+        display: block;
+        margin-top:0;
+    }
+    .left>div:first-child {
+        text-align: left;
+        padding-top: 131px;
+        padding-right: 160px;
+        padding-left: 50px;
+    }
+    .ap1:before {
+        content: "";
+        width: 1px;
+        height: 576px;
+        background: #F8A414;
+        position: absolute;
+        top: 79px;
+        left: 15px;
+    }
+    a.btn-cotiza {
+        background: #00E73C;
+        color: white;
+        font-weight: bold;
+        border-radius: 20px;
+        padding: 7px 19px 2px 19px;
+        position: absolute;
+        bottom: 61px;
+        left: 57px;
+    }
+    
+    .right>div:last-child {
+        text-align: left;
+        padding-top: 131px;
+        padding-left: 105px;
+        padding-right: 50px;
+    }
+    .ap2:before {
+        content: "";
+        width: 1px;
+        height: 579px;
+        background: #F8A414;
+        position: absolute;
+        top: 88px;
+        right: 18px;
+    }
+
+
     .orange {
         background: orange;
         color: white;
@@ -944,15 +1184,14 @@ a.linked {
     }
 }
 
-@media (min-width: 992px) {
-    .bloque25 {
-        display: block;
-        width: 100%;
-        background-size: cover;
-    }
-}
-
 @media (min-width: 1200px) {
+    .etiqueta {
+        color: #F8A414;
+        font-weight: bold;
+        font-size: 67px;
+        display: block;
+        margin-top: -41px;
+    }
     .bloque25 {
         display: block;
         width: 100%;
@@ -996,7 +1235,7 @@ a.linked {
         font-weight: bold;
         font-size: 67px;
         display: block;
-        margin-top: -41px;
+        margin-top: 0px;
     }
     .right>div:last-child {
         text-align: left;
@@ -1014,9 +1253,10 @@ a.linked {
         right: 18px;
     }
     .ap2 a.btn-cotiza {
-       
         left: 158px;
+        margin-bottom: 0;
     }
+    
     .ap2 h2{
         margin-top: 52px;
     }

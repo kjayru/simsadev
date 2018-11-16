@@ -167,7 +167,13 @@ $(document).ready(function(){
       let telefono = document.getElementById('telefono').value;
       let mensaje = document.getElementById('mensaje').value;
 
-      
+      var response = grecaptcha.getResponse();
+
+      if(response.length == 0){
+        alert("Captcha no verificado")
+        return false;
+      } 
+     
 
       datos = ({'nombre':nombre,'empresa':empresa,'ciudad':ciudad,'email':email,'telefono':telefono,'terminos':mensaje});
       //let url = `/savedata`;
@@ -194,18 +200,32 @@ $(document).ready(function(){
 
 
                       */
-
+                     grecaptcha.reset();
+                      $("#formdata input").each(function(){
+                        $(this).val("");
+                      });
+                      $("#mensaje").val("");
                }else{
                    return false;
                }
 
   });
 
-
+$("#modal-2 .close").on('click',function(e){
+  e.preventDefault();
+  $(".boxmodal").css('display','none').removeClass('active');
+});
  //enddocument   
 });
+var validacaptcha = '';
+function validarform(){
+  
+  var response = grecaptcha.getResponse();
 
-
+    validacaptcha =  response;
+    
+    alert(validacaptcha);
+}
 
 
 var _createClass = function () {
